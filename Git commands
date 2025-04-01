@@ -1,0 +1,102 @@
+Here’s a list of essential **Git commands** for Windows Terminal (PowerShell or CMD):
+
+---
+
+### **1. Git Setup**
+| Command | Description |
+|---------|-------------|
+| `git --version` | Check Git version |
+| `git config --global user.name "Your Name"` | Set global username |
+| `git config --global user.email "you@example.com"` | Set global email |
+| `git config --global core.editor "code --wait"` | Set VS Code as the default editor |
+| `git config --list` | View all global configurations |
+
+---
+
+### **2. Working with Repositories**
+| Command | Description |
+|---------|-------------|
+| `git init` | Initialize a new Git repository |
+| `git clone <repo_url>` | Clone a repository from GitHub/GitLab |
+
+---
+
+### **3. Tracking Changes**
+| Command | Description |
+|---------|-------------|
+| `git status` | Show the status of changes |
+| `git add <file>` | Stage a file |
+| `git add .` | Stage all changed files |
+| `git reset <file>` | Unstage a file |
+| `git reset --hard` | Remove all changes (not committed) |
+
+---
+
+### **4. Committing Changes**
+| Command | Description |
+|---------|-------------|
+| `git commit -m "Commit message"` | Commit staged changes |
+| `git commit --amend -m "New message"` | Edit the last commit message |
+
+---
+
+### **5. Branching & Merging**
+| Command | Description |
+|---------|-------------|
+| `git branch` | List all branches |
+| `git branch <branch_name>` | Create a new branch |
+| `git checkout <branch_name>` | Switch to a branch |
+| `git checkout -b <branch_name>` | Create and switch to a new branch |
+| `git merge <branch_name>` | Merge a branch into the current branch |
+| `git branch -d <branch_name>` | Delete a branch |
+
+---
+
+### **6. Working with Remote Repositories**
+| Command | Description |
+|---------|-------------|
+| `git remote -v` | List remote repositories |
+| `git remote add origin <repo_url>` | Link local repo to a remote repo |
+| `git push origin <branch>` | Push changes to remote |
+| `git pull origin <branch>` | Pull the latest changes from remote |
+| `git fetch` | Fetch updates without merging |
+
+---
+
+### **7. Undo & Reset**
+| Command | Description |
+|---------|-------------|
+| `git revert <commit_hash>` | Create a new commit that undoes a commit |
+| `git reset --soft <commit_hash>` | Undo commit but keep changes staged |
+| `git reset --hard <commit_hash>` | Undo commit and discard changes |
+
+---
+
+### **8. Viewing History**
+| Command | Description |
+|---------|-------------|
+| `git log` | View commit history |
+| `git log --oneline` | View commit history (compact) |
+| `git log --graph --oneline --all` | Show branch structure graph |
+
+---
+
+### **9. Stashing Changes**
+| Command | Description |
+|---------|-------------|
+| `git stash` | Save uncommitted changes temporarily |
+| `git stash pop` | Apply the last stashed change |
+| `git stash list` | List stashed changes |
+| `git stash drop` | Delete the last stash |
+
+---
+
+### **10. Git Ignore & Clean**
+| Command | Description |
+|---------|-------------|
+| `echo node_modules/ > .gitignore` | Ignore files (example: `node_modules/`) |
+| `git clean -f` | Remove untracked files |
+
+---
+
+Let me know if you need more details! 🚀
