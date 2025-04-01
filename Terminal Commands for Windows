@@ -1,0 +1,70 @@
+Windows Terminal supports various command-line tools like **Command Prompt (cmd.exe), PowerShell, and Windows Subsystem for Linux (WSL)**. Below are useful commands for each:
+
+---
+
+### **1. General Windows Commands (CMD & PowerShell)**
+| Command | Description |
+|---------|-------------|
+| `dir` | List files in the current directory |
+| `cd <directory>` | Change directory |
+| `cd ..` | Move up one directory |
+| `mkdir <folder>` | Create a new folder |
+| `rmdir /s <folder>` | Delete a folder and its contents |
+| `del <file>` | Delete a file |
+| `copy <source> <destination>` | Copy a file |
+| `move <source> <destination>` | Move or rename a file |
+| `cls` | Clear the terminal |
+| `echo <message>` | Print a message |
+| `exit` | Close the terminal |
+
+---
+
+### **2. System & Task Management**
+| Command | Description |
+|---------|-------------|
+| `tasklist` | Show running processes |
+| `taskkill /IM <process.exe> /F` | Force stop a process |
+| `shutdown /s /t 0` | Shut down the computer immediately |
+| `shutdown /r /t 0` | Restart the computer immediately |
+| `ipconfig` | Show network configuration |
+| `ipconfig /flushdns` | Clear DNS cache |
+
+---
+
+### **3. PowerShell-Specific Commands**
+| Command | Description |
+|---------|-------------|
+| `Get-Process` | List running processes |
+| `Stop-Process -Name <process>` | Stop a process |
+| `Get-Command <command>` | Get details about a command |
+| `Get-Help <command>` | Show help for a command |
+| `Get-Service` | List all system services |
+| `Start-Service <service>` | Start a service |
+| `Stop-Service <service>` | Stop a service |
+
+---
+
+### **4. Windows Subsystem for Linux (WSL)**
+| Command | Description |
+|---------|-------------|
+| `wsl` | Start WSL |
+| `wsl --list --verbose` | List installed WSL distros |
+| `wsl --install` | Install WSL (if not installed) |
+| `wsl --set-version <distro> 2` | Set WSL version |
+| `wsl --terminate <distro>` | Stop a running WSL instance |
+
+---
+
+### **5. File & User Management**
+| Command | Description |
+|---------|-------------|
+| `whoami` | Show current user |
+| `net user` | List all user accounts |
+| `net user <username> /add` | Create a new user |
+| `net user <username> /delete` | Delete a user |
+| `attrib +h <file>` | Hide a file |
+| `attrib -h <file>` | Unhide a file |
+
+---
+
+Let me know if you need more specific commands! 🚀
